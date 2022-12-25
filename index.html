@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .digitalClock{
+            border:solid 10px rgb(248, 171, 5);
+            
+        }
+        body{
+            height: 100vh;
+            background-color: #000;
+            position: relative;
+        }
+        .digitalClock{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-shadow: 2px 2px 20px #0cc8e0;
+            font-size: 74px;
+        }
+        .container h1{
+        font-size: 100px;
+        text-align: center;
+        text-shadow: 2px 2px 20px #f8f407;
+       
+    }
+        
+    </style>
+
+    <title>Document</title>
+    
+</head>
+<body>
+        <div class="container">
+            <h1 class="  text-white p-4 animate__animated animate__bounce animate__heartBeat animate__infinite">Digital Clock</h1>
+            <div id="digitalClock" class="digitalClock animate__animated animate__bounce animate__flash animate__infinite">
+       
+            </div>
+        </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
